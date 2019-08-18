@@ -48,4 +48,14 @@ function newFunction(){
         }
       }
     }
+    for (var i = 0; i < gender.length; i++) {
+        if (gender[i].checked) {
+          var gen = gender[i].value;
+        } else {
+          if (gender[0].checked == false && gender[1].checked == false) {
+            document.getElementById("gendererror").textContent = "select gender";
+           
+          }
+        }
+      }
   
