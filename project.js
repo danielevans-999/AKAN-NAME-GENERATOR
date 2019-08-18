@@ -67,3 +67,12 @@ function newFunction(){
       return myUserDetails;
     
   }
+
+  function dan() {
+    var x = formValdation();
+    var dd = parseInt(x.myDay);
+    var mm = parseInt(x.myMonth);
+    var yy = parseInt(x.myYear.slice(2, 4));
+    var cc = parseInt(x.myYear.slice(0, 2));
+    var nender = x.myGender;
+  
