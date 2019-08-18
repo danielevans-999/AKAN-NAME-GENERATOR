@@ -17,3 +17,12 @@
 #day,#month,#year{
     width: 100px;
 }
+.two{
+    text-align: center;
+    padding-top:10px;
+}
+p{
+    text-align: center;
+    font-family: 'Carter One', cursive;
+  font-size: 20px;
+}
