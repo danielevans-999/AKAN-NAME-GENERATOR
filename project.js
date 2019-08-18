@@ -79,3 +79,23 @@ function newFunction(){
     var dayOfWeek = Math.round(
         (cc / 4 - 2 * cc - 1 + (5 * yy) / 4 + (26 * (mm + 1)) / 10 + dd) % 7
       );
+
+      if (nender == "male") {
+        if (dayOfWeek == 0) {
+          alert("Your Akan Name" + " " + nameList[0].Sunday);
+        } else if (dayOfWeek == 1) {
+          alert("Your Akan Name is" + "" + " " + nameList[0].Monday);
+        } else if (dayOfWeek == 2) {
+          " " + alert("Your Akan Name is" + "" + " " + nameList[0].Tuesday);
+        } else if (dayOfWeek == 3) {
+          " " + alert("Your Akan Name is" + "" + " " + nameList[0].Wednesday);
+        } else if (dayOfWeek == 4) {
+          " " + alert("Your Akan Name is" + "" + " " + nameList[0].Thursday);
+        } else if (dayOfWeek == 5) {
+          " " + alert("Your Akan Name is" + "" + " " + nameList[0].Friday);
+        } else {
+          if (dayOfWeek == 6) {
+            alert("Your Akan Name is" + "" + "" + nameList[0].Saturday);
+          }
+        }
+      }
