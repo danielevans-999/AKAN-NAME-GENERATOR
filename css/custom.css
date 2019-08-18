@@ -10,3 +10,10 @@
   font-family: "Arapey", serif;
   font-family: "Gudea", sans-serif;
 }
+#form1{
+    text-align: center;
+    padding-top:50px;
+}
+#day,#month,#year{
+    width: 100px;
+}
