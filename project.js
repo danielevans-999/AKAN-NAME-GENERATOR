@@ -98,4 +98,25 @@ function newFunction(){
             alert("Your Akan Name is" + "" + "" + nameList[0].Saturday);
           }
         }
+      }else {
+        if (nender == "female") {
+          if (dayOfWeek == 0) {
+            alert("Your Akan Name" + " " + nameList[1].Sunday);
+          } else if (dayOfWeek == 1) {
+            alert("Your Akan Name is" + "" + " " + nameList[1].Monday);
+          } else if (dayOfWeek == 2) {
+            " " + alert("Your Akan Name is" + "" + " " + nameList[1].Tuesday);
+          } else if (dayOfWeek == 3) {
+            " " + alert("Your Akan Name is" + "" + " " + nameList[1].Wednesday);
+          } else if (dayOfWeek == 4) {
+            " " + alert("Your Akan Name is" + "" + " " + nameList[1].Thursday);
+          } else if (dayOfWeek == 5) {
+            " " + alert("Your Akan Name is" + "" + " " + nameList[1].Friday);
+          } else {
+            if (dayOfWeek == 6) {
+              alert("Your Akan Name is" + "" + " " + nameList[1].Saturday);
+            }
+          }
+        }
       }
+    }
