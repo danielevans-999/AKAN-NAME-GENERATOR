@@ -49,3 +49,12 @@ To view the website go to [click here](https://github.com/danielevans-999/AKAN-N
 
 - Javascript-For DOM(Document Object Manipulation) scripts
 
+## Support and contact details
+The application is an open-source product if you  want to improve it.
+### License
+>You can check out the license [click here](https://choosealicense.com/licenses/mit/)
+This project is licensed under the terms of **MIT**
+
+Copyright (c) 2019 **Daniel Evans Karani**
+  
+
