@@ -58,4 +58,12 @@ function newFunction(){
           }
         }
       }
-  
+      var myUserDetails = {
+        myDay: day.value,
+        myMonth: month.value,
+        myYear: year.value,
+        myGender: gen
+      };
+      return myUserDetails;
+    
+  }
