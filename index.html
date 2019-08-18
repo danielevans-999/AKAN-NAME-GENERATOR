@@ -9,6 +9,7 @@
       href="https://fonts.googleapis.com/css?family=Carter+One&display=swap"
       rel="stylesheet"
     /><link href="https://fonts.googleapis.com/css?family=Arapey|Carter+One|Gudea&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arapey|Barlow|Carter+One|Gudea&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" type="text/css" href="css/custom.css" />
     <title>Akan Names</title>
@@ -21,9 +22,11 @@
                     <h4>THE ART OF NOMENCLATURE</h4>
           
                 </div>
-                <p style="color: white;">Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. Here are Ghanian day names.
+                <h5>AKAN NAME GENERATOR</h5>
+                <p id="index" style="color: white;"> The Website gives one his/her Akan names,Akan names are derived from Ghanian culture. Frequently in Ghana, 
+                    children are given their first name as a 'day name' which corresponds to the day in the week they were born. Here are Ghanian day names.
 
-                    </p>
+                <a href="https://github.com/danielevans-999/AKAN-NAME-GENERATOR/tree/master" >click Here</a>   </p>
                     
         <div class="row">
           <div class="col-sm-6">
@@ -34,10 +37,8 @@
               />
               <div class="card-body">
                 <h5 class="card-title">AKAN NAMES</h5>
-                <p class="card-text">#birtherror,#gendererror{
-                        color:red;
-                        text-align: center;
-                    }
+                <p class="card-text">
+                    
                   The Akan people of Ghana frequently name their children after
                   the day of the week they were born and the order in which they
                   were born. These "day names" have further meanings concerning
@@ -45,24 +46,32 @@
                   considerably more variety and can refer to their birth order,
                   twin status, or an ancestor's middle name.
                 </p>
-                <a href="#" class="btn btn-primary">REAd MORE</a>
+                <a href="#" class="btn btn-primary">MORE</a>
               </div>
             </div>
           </div>
           <div class="col-sm-6">
-                <p>GHANA NAMES</p>
-                <p></p>
-                <p>Please Enter Your BirthDay </p>
+                <p style="color:khaki;">GHANA NAMES</p>
+                
+                <p style="color:khaki;">Please Enter Your BirthDay To Know your Akan Name</p>
         
                 <div id="birtherror"></div>
                 <form id="form1" >
-                   <span style="color:white";>Day:</span> <input type="text" id="day" name="day" placeholder="DD" maxlength="2">
-                      <span style="color:white;"> Month:</span> <input type="text" id="month" name="month" placeholder="MM" maxlength="2">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6 col-lg-4">
+                         <span style="color:white";>Day:</span> <input type="text" id="day" name="day" placeholder="DD" maxlength="2">
+                        </div>
+                      <div class="col-sm-12 col-md-6 col-lg-4">
+                         <span style="color:white;"> Month:</span> <input type="text" id="month" name="month" placeholder="MM" maxlength="2">
+                      </div>
+                      <div class="col-sm-12 col-md-6 col-lg-4">
                         <span style="color:white;">Year:</span> <input type="text" id="year" name="year" placeholder="YY" maxlength="4"><br>
-                        <p>select gender</p>
+                        </div>
+                        </div>
+                        <p style="color: khaki;">select gender</p>
                         <div id="gendererror"></div>
-                              <input type="radio" name="gender" value="male">male<br>
-                             <input type="radio" name="gender" value="female">female</br>
+                              <input type="radio" name="gender" value="male"><span style="color: white;">male</span><br>
+                             <input type="radio" name="gender" value="female"><span style="color: white;">female</span><br>
                              <input type="button" id="first" onclick="newFunction()" value="Reset">
                              <button type="submit" id="second" onclick="dan()">submit</button>
                      </form> 

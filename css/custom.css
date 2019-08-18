@@ -1,44 +1,55 @@
-.card-title {
+.card-title,
+h5 {
   font-family: "Carter One", cursive;
   color: gold;
 }
 .jumbotron {
-  background-color:#000019;
+  background-color: #000019;
 }
 .card-text {
   font-family: "Carter One", cursive;
   font-family: "Arapey", serif;
   font-family: "Gudea", sans-serif;
 }
-#form1{
-    text-align: center;
-    padding-top:50px;
+#form1 {
+  text-align: center;
+  padding-top: 50px;
 }
-#day,#month,#year{
-    width: 100px;
+#day,
+#month,
+#year {
+  width: 100px;
 }
-#first,#second{
-    text-align: center;
-    border-radius:10px;
-    
+#first,
+#second {
+  text-align: center;
+  border-radius: 10px;
 }
-p{
-    text-align: center;
-    font-family: 'Carter One', cursive;
+p {
+  text-align: center;
+  font-family: "Carter One", cursive;
   font-size: 20px;
 }
-#header{
-    text-align: center;
-    font-family: "Carter One", cursive;
-    margin: auto;
-    width: 100%;
-    position:sticky;
-    top: 0;
-    background-color: aqua;
-    z-index: 3;
-    height: 50px;
+#header {
+  text-align: center;
+  font-family: "Carter One", cursive;
+  margin: auto;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  background-color: aqua;
+  z-index: 3;
+  height: 50px;
 }
-#birtherror,#gendererror{
-    color:red;
-    text-align: center;
+#birtherror,
+#gendererror {
+  color: red;
+  text-align: center;
+}
+#index {
+  font-family: "Carter One", cursive;
+  font-family: "Arapey", serif;
+  font-family: "Gudea", sans-serif;
+  font-family: "Barlow", sans-serif;
+  text-align: left;
 }
