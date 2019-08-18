@@ -76,3 +76,6 @@ function newFunction(){
     var cc = parseInt(x.myYear.slice(0, 2));
     var nender = x.myGender;
   
+    var dayOfWeek = Math.round(
+        (cc / 4 - 2 * cc - 1 + (5 * yy) / 4 + (26 * (mm + 1)) / 10 + dd) % 7
+      );
