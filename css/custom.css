@@ -19,12 +19,22 @@
 }
 #first,#second{
     text-align: center;
-    /* padding-top:10px;
-    padding: 30px; */
     border-radius:10px;
+    
 }
 p{
     text-align: center;
     font-family: 'Carter One', cursive;
   font-size: 20px;
+}
+#header{
+    text-align: center;
+    font-family: "Carter One", cursive;
+    margin: auto;
+    width: 95%;
+    position:sticky;
+    top: 0;
+    background-color: aqua;
+    z-index: 3;
+    height: 50px;
 }
