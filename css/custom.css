@@ -17,9 +17,11 @@
 #day,#month,#year{
     width: 100px;
 }
-.two{
+#first,#second{
     text-align: center;
-    padding-top:10px;
+    /* padding-top:10px;
+    padding: 30px; */
+    border-radius:10px;
 }
 p{
     text-align: center;
