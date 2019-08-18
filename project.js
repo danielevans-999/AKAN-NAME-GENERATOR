@@ -18,3 +18,9 @@ var nameList=[
       }
 
 ];
+
+function newFunction(){
+    document.getElementById("form1").reset();
+    document.getElementById("birtherror").textContent="";
+    document.getElementById("gendererror").textContent="";
+  }
